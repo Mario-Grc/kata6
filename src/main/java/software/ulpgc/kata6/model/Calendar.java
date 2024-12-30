@@ -8,7 +8,7 @@ import java.util.Set;
 import static java.time.DayOfWeek.*;
 
 public class Calendar {
-    private static Set<DayOfWeek> workingDays = Set.of(
+    private static final Set<DayOfWeek> workingDays = Set.of(
             MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY
     );
 
